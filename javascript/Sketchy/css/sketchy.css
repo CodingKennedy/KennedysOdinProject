@@ -1,0 +1,23 @@
+body{
+  background:#0099CC;
+text-align: center;
+}
+h1{
+  font-size: 40px;
+  color:aqua;
+}
+div{
+  /*background:green;*/
+  width:24px;
+  height:24px;
+  display: inline-block;
+  /*border-style: solid;*/
+}
+button{
+  float:left;
+}
+ @media (max-width: 500px) {
+      div{
+  width:15px;
+  height:15px;
+    }
